@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+
+html {
+    background-color: #1D1D1D;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 3em;
+    
+}
+
+
+div.videos {
+    margin: auto;
+    width: fit-content;
+    padding-top: 30px;
+    
+}
+
+
+img {
+    width: 300px;
+}
+

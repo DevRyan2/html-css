@@ -1,8 +1,6 @@
 # html-css
-Curso de HTML5 e CSS3 — CursoemVideo
+Curso de HTML5 e CSS3 do CursoemVideo
 
-Repositório de estudos e exercícios do curso. Aprendendo a criar sites do zero, do HTML básico ao CSS avançado.
+Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-🔗 **Demo:** [devryan2.github.io/html-css/exercicios/](https://devryan2.github.io/html-css/exercicios/)
-
-Feito com ❤️ durante o aprendizado de desenvolvimento web.
+<a href="https://devryan2.github.io/html-css/mod1/ex001/">Executar o exercício 001</a>

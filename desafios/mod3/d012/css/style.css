@@ -14,7 +14,8 @@
     margin: 0px;
 }
 
-body, html {
+body,
+html {
     min-height: 100vh;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,12 +69,14 @@ section {
 }
 
 section p {
+    display: block;
+
     margin-left: 10px;
     margin-bottom: 78px;
     padding: 5px;
     border: 5px;
     max-width: 450px;
-    
+
     font-family: var(--fonte-cursiva);
 }
 
@@ -102,12 +105,14 @@ section.image > p {
 }
 
 section#img1 {
-    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(../imagens/background001.jpg) center center no-repeat
+        fixed;
     background-size: cover;
 }
 
 section#img2 {
-    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+    background: black url(../imagens/background002.jpg) center center no-repeat
+        fixed;
     background-size: cover;
 }
 
@@ -126,7 +131,7 @@ footer > p {
 
 footer a {
     color: white;
-    
+
     text-decoration: none;
     font-width: bolder;
 }

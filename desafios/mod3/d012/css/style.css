@@ -3,14 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root {
+    --fonte-titulo: 'Passion One', sans-serif;
+    --fonte-cursiva: 'Sriracha', cursive;
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
-header {
-    min-height: 150px;
+body, html {
+    min-height: 100vh;
 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
     background-color: black;
 
     text-align: center;
@@ -21,17 +31,25 @@ header > h1 {
 
     color: white;
 
-    font-family: 'Passion One', sans-serif;
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-weight: bold;
 }
 
 header > p {
+    padding-bottom: 50px;
     color: white;
+
+    font-size: 1em;
+    font-family: var(--fonte-padrao);
 }
 
 header > p > a {
     color: white;
 
     text-decoration: none;
+    font-family: var(--fonte-padrao);
     font-weight: bold;
 }
 
@@ -39,32 +57,76 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-left: 30px;
+
+    line-height: 2em;
+    text-align: left;
+    font-size: 3.5vw;
+    font-family: var(--fonte-cursiva);
+}
+
 section p {
     margin-left: 10px;
-
-    font-family: 'Sriracha', cursive;
-    font-size: 1.7em;
+    margin-bottom: 78px;
+    padding: 5px;
+    border: 5px;
+    max-width: 450px;
+    
+    font-family: var(--fonte-cursiva);
 }
 
 section.f-branco {
+    /*margin: 92px 0px 92px 10px;*/
+
     background-color: white;
 }
 
+section.f-branco > p {
+    background-color: white;
+    color: black;
+}
+
+section.image {
+    box-shadow: inset 0px 0px 10px black;
+}
+
 section.image > p {
-    width: 400px;
-    height: 400px;
-    padding: 10px;
+    display: inline-block;
 
     color: white;
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.514);
 
-    text-align: justify;
+    text-shadow: 2px 1px 0px #000000a3;
 }
 
 section#img1 {
-    background-image: url(../imagens/background001.jpg);
+    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 section#img2 {
-    background-image: url(../imagens/background002.jpg);
+    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    padding: 10px;
+
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+footer > p {
+    font-size: 1.1em;
+}
+
+footer a {
+    color: white;
+    
+    text-decoration: none;
+    font-width: bolder;
 }

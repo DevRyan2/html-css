@@ -58,6 +58,10 @@ section#login {
 
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition:
+        width 0.3s,
+        height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -68,8 +72,6 @@ section#login > div#imagem {
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-position: left bottom;
     background-size: cover;
-
-    border-radius: 20px 20px 0px 0px;
 }
 
 section#login > div#formulario {

@@ -29,10 +29,11 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     flex: 0 0 200px;
 
     text-align: left;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
 }
 
 
@@ -41,7 +42,7 @@ header > nav {
     flex-flow: row wrap;
     justify-content: flex-end;
 
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 header > nav > a {
@@ -64,10 +65,21 @@ header > nav > a:hover {
 }
 
 main {
-    margin: 10px;
+    max-width: 1000px;
+    margin: auto;
+    /* margin: 10px; */
     padding: 10px;
 
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
 }
+
+main > h2 {
+    padding-bottom: 5px;
+}
+
+main > p {
+    padding: 5px;
+}
+
